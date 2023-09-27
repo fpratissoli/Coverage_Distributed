@@ -107,11 +107,8 @@ if you have any problem doing this part see --> https://www.sfml-dev.org/tutoria
         sfml-audio
         sfml-network
         sfml-system
-    Now you should be able to run the program code properly.
-    (In the main.cpp file you have to keep "#include <SFML/Graphics.hpp>" and "#include <SFML/OpenGL.hpp>" to run the program code).
 
+Now you should be able to run the program code properly. (In the main.cpp file you have to keep "#include <SFML/Graphics.hpp>" and "#include <SFML/OpenGL.hpp>" to run the program code).
 
 Remember to create a new workspace in Code::Blocks and then add the files main.cpp and the header files contained in the project directory you have downloaded in order to visualize the project tree.
-
-
 
