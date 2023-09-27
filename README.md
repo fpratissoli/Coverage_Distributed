@@ -15,19 +15,19 @@ Once the app is executed, press:
 
 ---
 
-# Ubuntu Installation and Compilation
+## Ubuntu Installation and Compilation
 Installation guide for Ubuntu code execution
 
-## g++ compiler (tested for version 9.3.0 UBUNTU 20):
+### g++ compiler (tested for version 9.3.0 UBUNTU 20):
     $ sudo apt-get update
     $ sudo apt-get install g++
 
-## SFML library (for further information: https://www.sfml-dev.org/tutorials/2.5/start-linux.php):
+### SFML library (for further information: https://www.sfml-dev.org/tutorials/2.5/start-linux.php):
     $ sudo apt-get install libsfml-dev
 
-## Compile the code and generate the executable file, in the directory of the main file code:
-    (using Makefile, the executable file will be generated in a build folder)
-    $ make      (or $ make build_main)
+### Compile the code and generate the executable file, in the directory of the main file code:
+    # (using Makefile, the executable file will be generated in a build folder)
+    $ make      # (or $ make build_main)
 
     or manually:
 
