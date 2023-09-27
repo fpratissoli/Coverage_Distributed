@@ -36,38 +36,37 @@ Installation guide for Ubuntu code execution
 
 --- 
 
-# Windows Installation and Compilation
+## Windows Installation and Compilation
 Installation guide for Windows code execution
 To execute the algorithm and visualize Voronoi Diagrams you need an IDE and the graphics interface SFML  
 
 We used Code::Blocks IDE (Tested on windows 10)
 
-## Install and configure SFML for Code::Blocks IDE (Tested on Windows 10)
--------------------------------------------INSTALLATION GUIDE-------------------------------------------------------------------------------------
-**Code::Blocks IDE installation**
-First of all you need to install Code::Blocks IDE 20.03
--go to the download section of the official website --> http://www.codeblocks.org/downloads/26
--download "codeblocks-20.03mingw-setup.exe"
--launch "codeblocks-20.03mingw-setup.exe"
--follow the setup steps to install Code::Blocks IDE (recommended default install)
+### Install and configure SFML for Code::Blocks IDE
+    Code::Blocks IDE installation
+        First of all you need to install Code::Blocks IDE 20.03
+        -go to the download section of the official website --> http://www.codeblocks.org/downloads/26
+        -download "codeblocks-20.03mingw-setup.exe"
+        -launch "codeblocks-20.03mingw-setup.exe"
+        -follow the setup steps to install Code::Blocks IDE (recommended default install)
 
-**SFML Installation**
-Now you can install SFML
--go to the download section of SFML official website --> https://www.sfml-dev.org/download/sfml/2.5.1/
--search for "GCC 5.1.0 TDM (SJLJ) - Code::Blocks - 32-bit" and download it
--extract "GCC 5.1.0 TDM (SJLJ) - Code::Blocks - 32-bit" whetever you want (for example on your C:\)
-The extracted directory "C:\SFML-2.5.1" contains the SFML library files you need so keep in mind where it is.
+    SFML Installation
+        Now you can install SFML
+        -go to the download section of SFML official website --> https://www.sfml-dev.org/download/sfml/2.5.1/
+        -search for "GCC 5.1.0 TDM (SJLJ) - Code::Blocks - 32-bit" and download it
+        -extract "GCC 5.1.0 TDM (SJLJ) - Code::Blocks - 32-bit" whetever you want (for example on your C:\)
+        The extracted directory "C:\SFML-2.5.1" contains the SFML library files you need so keep in mind where it is.
 
-**mingw32 Compiler Installation (TDM-GCC-5.1.0-3.exe)**
-The compiler versions have to match 100%! So you have to install the mingw32 compiler requested by SFML:
--download "TDM-GCC-5.1.0-3.exe" from https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe/download
--launch "TDM-GCC-5.1.0-3.exe"
--unflag "Check for updated files in the TDM-GCC server" then select 'Create'
--choose the installation directory (such as C:\) and keep the recommended installation properties to correctly install the compiler
-The compiler's directory "C:\TDM-GCC-32" contains the files you need so keep in mind where it is.
---------------------------------------------------------------------------------------------------------------------------------------------------
+    mingw32 Compiler Installation (TDM-GCC-5.1.0-3.exe)
+        The compiler versions have to match 100%! So you have to install the mingw32 compiler requested by SFML:
+        -download "TDM-GCC-5.1.0-3.exe" from https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe/download
+        -launch "TDM-GCC-5.1.0-3.exe"
+        -unflag "Check for updated files in the TDM-GCC server" then select 'Create'
+        -choose the installation directory (such as C:\) and keep the recommended installation properties to correctly install the compiler
+        The compiler's directory "C:\TDM-GCC-32" contains the files you need so keep in mind where it is.
 
-How to configure your IDE and link SFML library files
+
+### How to configure your IDE and link SFML library files
 -------------------------------------------CONFIGURATION GUIDE------------------------------------------------------------------------------------
 **Code::Blocks IDE Configuration**
 -open Code::Blocks
