@@ -3,7 +3,6 @@
 #include "Vettore.h"
 #include "Diagram.h"
 
-//Prototipo classe (necessario perché richiamata nella classe Event)
 template<typename T>
 class Arc;
 
