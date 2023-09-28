@@ -37,7 +37,6 @@ constexpr double AREA_BOTTOM = -10;
 
 // Centroid Calculation (Mode Selection)
 const bool not_uniform = true;                   // M=0 => geometric centroids; M=1 => simple Gaussian; M=2 => multiple Gaussians
-const bool exploration = false;
 
 // Gaussian Density Function parameters
 constexpr double PT_X = 8;           // x-coordinate of the point of interest (4)
